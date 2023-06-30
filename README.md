@@ -31,8 +31,8 @@ Follow these steps to run the application on an AWS EC2 instance.
 4. Clone this GitHub repository onto your EC2 instance.
 
     ```sh
-    git clone https://github.com/yourusername/my-flask-embedding-service.git
-    cd my-flask-embedding-service
+    git clone https://github.com/yourusername/sbert-embeddings-flask.git
+    cd sbert-embeddings-flask/
     ```
 
 5. Build the Docker image.
