@@ -31,7 +31,7 @@ Follow these steps to run the application on an AWS EC2 instance.
 4. Clone this GitHub repository onto your EC2 instance.
 
     ```sh
-    git clone https://github.com/yourusername/sbert-embeddings-flask.git
+    git clone https://github.com/siddharthvader/sbert-embeddings-flask.git
     cd sbert-embeddings-flask/
     ```
 
@@ -70,6 +70,3 @@ print(response.json())
 This script sends a POST request to the Flask app with sentences and prints out the embeddings received in the response.
 
 Make sure to have the requests library installed (pip install requests) and replace your-ec2-public-ip with the public IP address of your EC2 instance.
-
-
-Make sure to replace `yourusername` with your GitHub username and adjust the repository URL if needed. Also, don't forget to change `your-ec2-public-ip` to the actual public IP of your EC2 instance in the Python example.
